@@ -4,6 +4,9 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
+
+// also see https://github.com/btford/briantford.com/blob/master/jade/blog/angular-socket-io.md
+
 angular.module('chat', ['ionic', 'chat.controllers', 'chat.services'])
 
 .run(function($ionicPlatform) {
